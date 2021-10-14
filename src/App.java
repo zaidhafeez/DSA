@@ -93,20 +93,22 @@ public class App {
 
         // ----------SINGLY LINKED LIST ----------- //
 
-        LinkedListt llObj = new LinkedListt();
+        LinkList llObj = new LinkList();
         // llObj.traverse();
         llObj.insertAtBegin(5);
         llObj.insertAtBegin(10);
         llObj.insertAtEnd(25);
+        // llObj.insertAtEnd(35);
         llObj.insertAfterValue(6, 5);
         llObj.insertAfterValue(11, 10);
         llObj.insertAfterValue(26, 25);
         // llObj.traverse();
 
         // llObj.delAtEnd();
+        // llObj.delAtEnd();
         llObj.delAtGivenValue(26);
         llObj.delAtGivenValue(6);
-        llObj.delAtGivenValue(26);
+        // llObj.delAtGivenValue(26);
         
 
         // llObj.delAtBegin();
