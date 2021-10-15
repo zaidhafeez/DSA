@@ -47,11 +47,6 @@ public class LinkedListt {
 
     void insertAfterValue(int item, int searchingItem){
 
-        if(start == null){
-            System.out.println("Linked list is Empty");
-            return;
-        }
-
         Node p = searchItem(searchingItem);
         if(p != null){
             Node n = new Node();
