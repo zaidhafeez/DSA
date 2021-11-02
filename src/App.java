@@ -93,20 +93,20 @@ public class App {
 
         // ----------SINGLY LINKED LIST ----------- //
 
-        LinkedListPractice llObj = new LinkedListPractice();
+        // LinkedListPractice llObj = new LinkedListPractice();
         // // llObj.traverse();
-        llObj.insertAtBegin(5);
-        llObj.insertAtBegin(10);
-        llObj.insertAtEnd(25);
+        // llObj.insertAtBegin(5);
+        // llObj.insertAtBegin(10);
+        // llObj.insertAtEnd(25);
         // llObj.insertAtEnd(35);
         // llObj.insertAfterValue(6, 5);
         // llObj.insertAfterValue(11, 10);
-        llObj.insertAfterValue(26, 25);
+        // llObj.insertAfterValue(26, 25);
         // llObj.traverse();
 
         // llObj.delAtEnd();
         // llObj.delAtEnd();
-        llObj.delAtGivenValue(26);
+        // llObj.delAtGivenValue(26);
         // llObj.delAtGivenValue(10);
         // llObj.delAtGivenValue(26);
         
@@ -115,7 +115,27 @@ public class App {
         // // llObj.delAtBegin();
         // llObj.insertAfterValue(32, 35);
         // llObj.delAtEnd(); 
-        llObj.traverse();
+        // llObj.traverse();
+
+        // Binary Search Tree //
+        // BinarySearchTree bst = new BinarySearchTree();
+        // bst.insert(10);
+        // bst.insert(8);
+        Node n = new Node(10);
+        n.insert(5);
+        n.insert(10);
+        n.insert(12);
+        n.contains(10);
+        n.contains(11);
+        
+        // BinarySearchTree n = new BinarySearchTree();
+        // Node1 n1 = null;
+        // n1 = n.insert(n1, 5);
+        // n1 = n.insert(n1, 10);
+        // n1 = n.insert(n1, 12);
+        // n1 = n.insert(n1, 11);
+        // n1 = n.insert(n1, 4);
+        // n1 = n.insert(n1, 13);
 
     }
 }
